@@ -266,6 +266,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 
 45. (I) Remove all files with "deleteme" in the name.
 
+--SOLUÇÃO: find . -type f -name '*deleteme*' -exec rm {} +
+
 46. (I) In challenge 28 you found a file. Replace the string "You found the
     needle in the haystack!" with "The needle has been removed."
 
