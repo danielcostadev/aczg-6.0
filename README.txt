@@ -217,6 +217,8 @@ Referência: https://stackoverflow.com/questions/1462893/generating-a-random-bin
 
 35. (I) Count the number of lines in README.txt.
 
+--SOLUÇÃO: wc README.txt
+
 36. (B) Display the contents of README.txt in reverse (last line first).
 
 37. (I) Display all of the last names in people.csv.
