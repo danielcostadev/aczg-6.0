@@ -101,6 +101,8 @@ OK! Let's get started.
 
 8. (B) Create a file named "hello.txt" that contains the text "Hello World".
 
+--SOLUÇÃO: cat > hello.txt
+
 9. (B) Create an empty file named "empty.txt"
 
 10. (B) Remove the file "empty.txt"
