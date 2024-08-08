@@ -230,6 +230,9 @@ Referência: https://medium.com/@uiraribeiro/comando-cut-no-linux-cortar-por-col
 
 38. (A) Count the number of unique last names in people.csv.
 
+--SOLUÇÃO: awk -F, '{print $2}' people.csv | sort | uniq | wc -l
+Referência: https://stackoverflow.com/questions/67832594/awk-sort-by-last-column-and-the-print-the-whole-line
+
 39. (A) Did you accidentally count the CSV header in the previous challenge?
 
 40. (A) There's a second way to exclude the CSV header from your count. Find it.
