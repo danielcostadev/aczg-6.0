@@ -271,6 +271,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 46. (I) In challenge 28 you found a file. Replace the string "You found the
     needle in the haystack!" with "The needle has been removed."
 
+--SOLUÇÃO: sed -i 's/You found the needle in the haystack!/The needle has been removed./' bunch_of_files/file719.rand
+
 47. (A) Transform people.csv from ',' delimited to '|' delimited and save the result in people_pipe.csv.
 
 48. (A) Find all of the files in "bunch_of_files/" that are duplicates of "file001.rand".
