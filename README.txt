@@ -212,6 +212,9 @@ Referência: https://unix.stackexchange.com/questions/275243/what-does-dd-if-dev
 
 34. (I) Create a 2MB file full of random data.
 
+--SOLUÇÃO: dd if=/dev/urandom of=random_file.txt bs=1M count=2
+Referência: https://stackoverflow.com/questions/1462893/generating-a-random-binary-file
+
 35. (I) Count the number of lines in README.txt.
 
 36. (B) Display the contents of README.txt in reverse (last line first).
