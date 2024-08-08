@@ -246,6 +246,12 @@ Referência: https://www.vivaolinux.com.br/topico/Sed-Awk-ER-Manipulacao-de-Text
     last names in people.csv, can you prove whether or not one is more efficient
     (faster) than the other?
 
+    --SOLUÇÃO: A diferença de desempenho dos dois métodos pode ser pequena em arquivos menores, entretanto em se tratando de arquivos maiores o tail pode ser melhor que o sed, por ser mais direto e mais rápido para pular linhas em arquivos grandes. após usar o comando time em ambos os comandos pude observar que o "tail" se saiu melhor nos testes
+
+time sed '1d' people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
+time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
+
+
 42. (A) Count the number of people with the first name "Josiah" in people.csv.
 
 43. (I) Count the number of files (not directories) in the "challenges" directory .
