@@ -125,6 +125,8 @@ OK! Let's get started.
 
 14. (B) Rename "goodby.txt" to "hello_copy.txt".
 
+--SOLUÇÃO: mv goodbye.txt hello_copy.txt
+
 15. (I) Prove that the contents of "hello.txt" and "hello_copy.txt" are
     identical.
 
