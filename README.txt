@@ -239,6 +239,9 @@ Referência: https://stackoverflow.com/questions/67832594/awk-sort-by-last-colum
 
 40. (A) There's a second way to exclude the CSV header from your count. Find it.
 
+--SOLUÇÃO: sed '1d' people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
+Referência: https://www.vivaolinux.com.br/topico/Sed-Awk-ER-Manipulacao-de-Textos-Strings/Manipular-texto-com-SedAwk
+
 41. (A) Now that you've found two ways to correctly count the number of unique
     last names in people.csv, can you prove whether or not one is more efficient
     (faster) than the other?
