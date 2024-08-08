@@ -225,6 +225,9 @@ Referência: https://stackoverflow.com/questions/1462893/generating-a-random-bin
 
 37. (I) Display all of the last names in people.csv.
 
+--SOLUÇÃO: cut -d, -f2 people.csv
+Referência: https://medium.com/@uiraribeiro/comando-cut-no-linux-cortar-por-colunas-guia-b%C3%A1sico-8aa9b1cb2211
+
 38. (A) Count the number of unique last names in people.csv.
 
 39. (A) Did you accidentally count the CSV header in the previous challenge?
