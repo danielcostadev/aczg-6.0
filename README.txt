@@ -258,6 +258,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 
 43. (I) Count the number of files (not directories) in the "challenges" directory .
 
+--SOLUÇÃO: ls -la|grep -e "^-"|wc -l (com arquivos ocultos) ou ls -l|grep -e "^-"|wc -l (sem arquivos ocultos)
+
 44. (I) Count the number of subdirectories in the "challenges" directory.
 
 45. (I) Remove all files with "deleteme" in the name.
