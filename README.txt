@@ -139,6 +139,8 @@ OK! Let's get started.
 
 17. (B) Get the full path of your present working directory ("challenges").
 
+--SOLUÇÃO: pwd
+
 18. (B) List the contents of the "challenges" directory (like challenge 3), but
     show the permissions for each file.
 
