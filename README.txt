@@ -300,6 +300,8 @@ que começa com s na pasta, então apenas ele será removido.
     command as short as possible. I can do it in 25 characters, can you do
     better?
 
+--SOLUÇÃO: touch {a..c}-{1..3}.txt
+
 BONUS: Create a challenge of your own and ask a friend to complete it.
 
 Congratulations! You've completed all of the challenges. If you haven't
