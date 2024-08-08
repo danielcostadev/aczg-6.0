@@ -191,6 +191,8 @@ OK! Let's get started.
 
 29. (B) Print the first 25 lines of people.csv.
 
+--SOLUÇÃO: cat -n people.csv | head -25
+
 30. (B) Print the last 25 lines of people.csv.
 
 31. (I) Display just the differences between greeting1.txt and greeting2.txt
