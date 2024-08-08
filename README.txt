@@ -207,6 +207,9 @@ OK! Let's get started.
 
 33. (I) Create a 1MB file full of zeros.
 
+--SOLUÇÃO: dd if=/dev/zero of=zero_file.bin bs=1M count=1
+Referência: https://unix.stackexchange.com/questions/275243/what-does-dd-if-dev-zero-of-dev-sda-do
+
 34. (I) Create a 2MB file full of random data.
 
 35. (I) Count the number of lines in README.txt.
