@@ -279,6 +279,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 
 48. (A) Find all of the files in "bunch_of_files/" that are duplicates of "file001.rand".
 
+--SOLUÇÃO: fdupes bunch_of_files/
+
 49. (A) Execute this challenge in exactly 2 steps
 
     1) (B) Create an empty file named "supercalifragilisticexpialidocious.txt".
