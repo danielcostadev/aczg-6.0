@@ -113,6 +113,8 @@ OK! Let's get started.
 
 11. (I) Find a second way to solve challenge 9.
 
+--SOLUÇÃO: echo -n "" > empty.txt
+
 12. (I) Find a third way to solve challenge 9.
 
 13. (B) Copy "hello.txt" and name the copy "goodbye.txt".
