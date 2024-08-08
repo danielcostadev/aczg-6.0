@@ -1,76 +1,78 @@
-WELCOME
---------------------------------------------------------------------------------
-Congratulations, you opened the README.txt file! You're well on your way to
-becoming a command line ninja.
+    WELCOME
+    --------------------------------------------------------------------------------
+    Congratulations, you opened the README.txt file! You're well on your way to
+    becoming a command line ninja.
 
-WHAT IS THIS?
---------------------------------------------------------------------------------
-This is a set of challenges designed to help Linux newbies learn to use the
-command line. Each challenge prompts the student to learn a new command or
-concept about using the command line. Some challenges have multiple solutions,
-while others are more rigid.
+    WHAT IS THIS?
+    --------------------------------------------------------------------------------
+    This is a set of challenges designed to help Linux newbies learn to use the
+    command line. Each challenge prompts the student to learn a new command or
+    concept about using the command line. Some challenges have multiple solutions,
+    while others are more rigid.
 
-PHILOSOPHY
---------------------------------------------------------------------------------
-The world of technology changes daily. Throughout your career as a developer,
-admin, consultant, or other IT professional, you will often have to learn new
-skills, concepts, tools, and technologies. For the most part, no one is going to
-teach these things to you; it's up to you to learn them on your own.
+    PHILOSOPHY
+    --------------------------------------------------------------------------------
+    The world of technology changes daily. Throughout your career as a developer,
+    admin, consultant, or other IT professional, you will often have to learn new
+    skills, concepts, tools, and technologies. For the most part, no one is going to
+    teach these things to you; it's up to you to learn them on your own.
 
-The philosophy of these challenges is to guide the student through the process
-of learning the command line on their own. Therefore, there is no answer key
-for these challenges.
+    The philosophy of these challenges is to guide the student through the process
+    of learning the command line on their own. Therefore, there is no answer key
+    for these challenges.
 
-DON'T PANIC!
---------------------------------------------------------------------------------
-Before we get started, here are some words of encouragement: If you're new
-to Linux, don't be scared away by these challenges. Some of them are HARD. Don't
-give up, don't get discouraged, and, above all, don't panic.
+    DON'T PANIC!
+    --------------------------------------------------------------------------------
+    Before we get started, here are some words of encouragement: If you're new
+    to Linux, don't be scared away by these challenges. Some of them are HARD. Don't
+    give up, don't get discouraged, and, above all, don't panic.
 
-Don't feel like you have to solve all of these challenges in one sitting (or
-even one year). Many of these challenges will become obvious after you've spent
-some time using the command line on a regular basis, so don't try to force it.
-Solve the challenges that you can and research the ones that you can't. Get
-together with your friends and try to work them out as a team.
+    Don't feel like you have to solve all of these challenges in one sitting (or
+    even one year). Many of these challenges will become obvious after you've spent
+    some time using the command line on a regular basis, so don't try to force it.
+    Solve the challenges that you can and research the ones that you can't. Get
+    together with your friends and try to work them out as a team.
 
-INSTRUCTIONS
---------------------------------------------------------------------------------
+    INSTRUCTIONS
+    --------------------------------------------------------------------------------
 
-1. Unless otherwise noted, all challenges can be completed by submitting only 1
-entry on the command line. That is to say, you will type something on the command
-line and press the <ENTER> key exactly once. Writing a script and executing it
-does not count.
+    1. Unless otherwise noted, all challenges can be completed by submitting only 1
+    entry on the command line. That is to say, you will type something on the command
+    line and press the <ENTER> key exactly once. Writing a script and executing it
+    does not count.
 
-2. You may use any resources at your disposal to solve the challenges including
-friends or even Google. I would recommend, however, that you not simply google
-everything, but spend some time reading some books or articles for beginners.
-Furthermore, try and use the man pages instead of Google when you can. You get
-out of this what you put into it.
+    2. You may use any resources at your disposal to solve the challenges including
+    friends or even Google. I would recommend, however, that you not simply google
+    everything, but spend some time reading some books or articles for beginners.
+    Furthermore, try and use the man pages instead of Google when you can. You get
+    out of this what you put into it.
 
-When you complete a challenge, take the opportunity to learn more about the
-tools you used. If you learn a new command to complete a challenge, read
-through its man page. Many of the same commands are used in different ways
-throughout these challenges, so a little investment early on will make later
-challenges easier.
+    When you complete a challenge, take the opportunity to learn more about the
+    tools you used. If you learn a new command to complete a challenge, read
+    through its man page. Many of the same commands are used in different ways
+    throughout these challenges, so a little investment early on will make later
+    challenges easier.
 
-3. Most challenges have more than one solution. You get "bonus points" for
-solving challenges in multiple ways.
+    3. Most challenges have more than one solution. You get "bonus points" for
+    solving challenges in multiple ways.
 
-4. Some challenges stand alone, while others rely on challenges that came before
-them.
+    4. Some challenges stand alone, while others rely on challenges that came before
+    them.
 
-5. Challenges are labeled "B" for beginner, "I" for intermediate, and "A" for
-advanced.
+    5. Challenges are labeled "B" for beginner, "I" for intermediate, and "A" for
+    advanced.
 
-6. All challenges assume you are using the Bourne Again Shell (bash).
+    6. All challenges assume you are using the Bourne Again Shell (bash).
 
-CHALLENGES
+    CHALLENGES
 --------------------------------------------------------------------------------
 
 OK! Let's get started.
 
 1. (B) Extract the "challenges.tar.gz" archive; you'll need its contents to
    solve some of the challenges.
+
+   Solução: tar -xzf challenges.tar.gz
 
 2. (B) Change your working directory to the "challenges" directory that was
    created when you extracted "challenges.tar.gz"
