@@ -130,6 +130,8 @@ OK! Let's get started.
 15. (I) Prove that the contents of "hello.txt" and "hello_copy.txt" are
     identical.
 
+    --SOLUÇÃO: diff hello.txt hello_copy.txt
+
 16. (B) Concatenate the contents of "hello.txt" and "hello_copy.txt" and store
     the result in a file named "2_hellos.txt".
 
