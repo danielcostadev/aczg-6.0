@@ -153,6 +153,8 @@ OK! Let's get started.
 
 20. (B) Run the "hello_executable" program.
 
+--SOLUÇÃO: ./hello_executable
+
 21. (B) Run the "challenge_20" program. It's OK to do this in 2 steps.
 
 22. (B) Compile and run "compile_me.c". It's OK to do this in 2 steps.
