@@ -287,6 +287,13 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
     2) (A) Remove "supercalifragilisticexpialidocious.txt". Your command may
            only use a maximum 5 total characters (no wildcards or globs).
 
+--SOLUÇÃO: 
+1) > supercalifragilisticexpialidocious.txt
+2) rm s* 
+
+rm s* remove todos os arquivos que começam com s, como superca... é o único arquivo 
+que começa com s na pasta, então apenas ele será removido.         
+
 50. (A) Create a set of empty files. Each file has a name in the form "L-N.txt"
     where L is a letter and N is a number. Valid letters are a,b,c, while valid
     numbers are 1,2,3. Create all permutations (total of 9 files). Make your
