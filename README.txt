@@ -235,6 +235,8 @@ Referência: https://stackoverflow.com/questions/67832594/awk-sort-by-last-colum
 
 39. (A) Did you accidentally count the CSV header in the previous challenge?
 
+--SOLUÇÃO: Sim / Para resolver podemos usar tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
+
 40. (A) There's a second way to exclude the CSV header from your count. Find it.
 
 41. (A) Now that you've found two ways to correctly count the number of unique
