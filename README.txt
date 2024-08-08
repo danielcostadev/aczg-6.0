@@ -221,6 +221,8 @@ Referência: https://stackoverflow.com/questions/1462893/generating-a-random-bin
 
 36. (B) Display the contents of README.txt in reverse (last line first).
 
+--SOLUÇÃO: tac README.txt
+
 37. (I) Display all of the last names in people.csv.
 
 38. (A) Count the number of unique last names in people.csv.
