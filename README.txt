@@ -275,6 +275,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 
 47. (A) Transform people.csv from ',' delimited to '|' delimited and save the result in people_pipe.csv.
 
+--SOLUÇÃO: sed 's/,/|/g' people.csv > people_pipe.csv
+
 48. (A) Find all of the files in "bunch_of_files/" that are duplicates of "file001.rand".
 
 49. (A) Execute this challenge in exactly 2 steps
