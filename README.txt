@@ -195,6 +195,8 @@ OK! Let's get started.
 
 30. (B) Print the last 25 lines of people.csv.
 
+--SOLUÇÃO: cat -n people.csv | tail -25
+
 31. (I) Display just the differences between greeting1.txt and greeting2.txt
 
 32. (I) Print "Hello", then wait 5 seconds, then print "world!".
