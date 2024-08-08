@@ -254,6 +254,8 @@ time tail -n +2 people.csv | awk -F, '{print $2}' | sort | uniq | wc -l
 
 42. (A) Count the number of people with the first name "Josiah" in people.csv.
 
+--SOLUÇÃO: grep -c '^Josiah' people.csv
+
 43. (I) Count the number of files (not directories) in the "challenges" directory .
 
 44. (I) Count the number of subdirectories in the "challenges" directory.
