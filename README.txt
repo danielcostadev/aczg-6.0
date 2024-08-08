@@ -161,6 +161,8 @@ OK! Let's get started.
 
 22. (B) Compile and run "compile_me.c". It's OK to do this in 2 steps.
 
+--SOLUÇÃO: gcc -o compilado compile_me.c / ./compilado
+
 23. (A) Run the "redirect" program and collect all of its output in a file
     named "output.txt".
 
