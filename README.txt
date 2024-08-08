@@ -89,6 +89,8 @@ OK! Let's get started.
 
 5. (I) Create a new directory named "foo/bar/1/2/3"
 
+--SOLUÇÃO: mkdir "foo/bar/1/2/3"
+
 6. (B) Remove the directory "foo" and all of its contents
 
 7. (B) Print the text "Hello World".
