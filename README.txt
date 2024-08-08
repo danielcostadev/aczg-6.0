@@ -81,6 +81,8 @@ OK! Let's get started.
 
 3. (B) List the contents of the "challenges" directory.
 
+    Solução: ls
+
 4. (B) Create a new directory named "foo".
 
 5. (I) Create a new directory named "foo/bar/1/2/3"
