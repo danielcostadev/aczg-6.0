@@ -30,4 +30,4 @@ bin/
 
 .metadata
 .idea
-/K0-T0 Primeiros Desafios/.gitignore
+*.iml
